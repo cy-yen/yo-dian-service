@@ -1,4 +1,4 @@
-module example.com/m/v2
+module yo-dian-service
 
 go 1.22
 
