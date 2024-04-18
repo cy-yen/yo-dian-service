@@ -10,7 +10,6 @@ func Router() *gin.Engine {
 	r := gin.Default()
 
 	user := r.Group("/user")
-
 	{
 		user.GET("/ping", (&controllers.UserController{}).Get)
 	}
